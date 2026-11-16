@@ -5,16 +5,19 @@ body {
 }
 
 .kartu-profil { 
-  windth: 300px;
+  width: 300px;
+  
+  
   margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
   padding: 20px;
   background-color: White;
   border-radius: 15px; /* Membuat sudut menjadi melengkung */
-box-shadow: O 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
-text-align: center;/* Menengahkan semua teks di dalam kartu */
+box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
+text-align: center; /* Menengahkan semua teks di dalam kartu */
   }
 
 .kartu-profil img{
-widht: 150px;
+width: 150px;
+height: 150px; /*Tinggi di samkan dengan lebar agar bulat sempurna */
   border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */ 
 }
